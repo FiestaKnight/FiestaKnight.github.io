@@ -1,0 +1,16 @@
+College of Western CTE Idaho Software Development Associate Degree
+First Year: Client-Side Development			
+SWDV-105	Introduction to Programming	C#	Hyflex
+SWDV-110	Intermediate Programming	C#	Hyflex
+SWDV-115	Introduction to Web Application Development	HTML5/CSS3 GitHub	Hybrid
+SWDV-140	Intermediate Web Application Development	JavaScript	Hyflex
+SWDV-143	Client Side Frameworks	Vue & React	Hyflex
+SWDV-152	Systems Analysis and Design	Development Life Cycle & AWS	Hyflex
+Second Year: Server-Side DevelopmentÂ 			
+SWDV-210	Introduction to Server Side Programming	Python	Hyflex
+SWDV-220	Fundamentals of Database Systems	SQL	Hyflex
+SWDV-235	Advanced Web Application Development	ASP.NET	Hyflex
+SWDV-265	Mobile Development	React Native	Hyflex
+SWDV-271	Game Development	Unity	Hyflex
+SWDV-280	Collaborative Development		
+SWDV-293	Internship
