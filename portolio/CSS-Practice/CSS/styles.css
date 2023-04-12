@@ -1,0 +1,28 @@
+/* Izak Nielsen 4/12/2023*/
+header{
+    background-color: #12EDEB
+}
+footer{
+    background-color: #12EDEB
+}
+p{
+    font-size: 20px
+}
+ul{
+    font-size: 20px
+}
+li{
+    font-size: 20px
+}
+a:link{
+    color: #9741be
+}
+a:visited{
+    color: #44BB8F
+}
+a:hover{
+    color: #53A8AC
+}
+a:active{
+    color: #9E8461
+}
