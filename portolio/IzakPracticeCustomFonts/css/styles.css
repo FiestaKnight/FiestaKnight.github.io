@@ -1,7 +1,7 @@
 /* Practice CustomFonts Style Sheet */
 
 @font-face {
-    font-family: 'sofia';
+    font-family: 'kaushanscript';
     src: url('../fonts/kaushanscript-regular-webfont.woff') format('woff'),
          url('../fonts/kaushanscript-regular-webfont.woff2') format('woff2');
     font-weight: normal;
@@ -9,5 +9,5 @@
 }
 
 body{
-	font-family: 'sofia', "Times New Roman", serif;
+	font-family: 'kaushanscript', "Times New Roman", serif;
 }
