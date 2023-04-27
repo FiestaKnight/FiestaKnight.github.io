@@ -1,0 +1,69 @@
+.projectExamples {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.projectBox {
+    background: #d3cfcf;
+    border: 1px solid #000000;
+    margin: auto;
+    padding-bottom: 5px;
+    width: 30%;
+    color:#3a3939;
+}
+
+.projectBox h4.semester {
+    background:#00000033; 
+    color: #3a3939;
+    padding: 15px;
+}
+
+.projectBox img {
+    margin-bottom: 20px;
+}
+
+.projectBox a.button {
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    color: green;
+    background: #00000033;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 1px;
+}
+
+main ul{
+list-style-image: url(../images/TinyRoxk.png);
+text-align: left;
+margin-left: 385px;
+padding-top: 2px;
+}
+
+table{
+    width: 50%;
+    border-style: solid;
+    border-collapse: collapse;
+border-width: 2px;
+border-color: #00000033;
+border-style: solid;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+}
+
+td{
+background:#d3cfcf;
+border-width: 2px;
+border-style: solid;
+border-color: #00000033;
+}
+
+table thead{
+    background: #00000033;
+}
