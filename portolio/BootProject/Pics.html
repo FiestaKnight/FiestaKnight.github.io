@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+ <html lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Pictures</title>
+    <head>
+        <style>
+        .parallax {
+          
+          background-image: url("media/GIVEMEMOREWALKING.jpg");
+        
+          
+          min-height: 500px; 
+        
+          
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        </style>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-sm bg-dark sticky-top">
+            <div class="container-fluid">
+              <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link" href="Home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Bio.html">Bio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="Pics.html">Pics</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="news.html">Newsletter</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">THE FORBIDDEN LINK</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+  <div class="p-3 bg-info text-dark text-center">
+    <h1>Here are Some of the Hottest Walking Spots!</h1>
+    <p>Have a look for yourself!</p> 
+  </div>
+
+  <div class="parallax"></div>
+
+  <div class="container mt-5">
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="media/City.jpg" alt="City" class="d-block" style="width:100%; Height:700px">
+          <div class="carousel-caption bg-black">
+            <h3>The City</h3>
+            <p>Explore the area see what shops you can find!</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="media/Park.png" alt="Park" class="d-block" style="width:100%; Height:700px">
+          <div class="carousel-caption bg-black">
+            <h3>Local Parks</h3>
+            <p>Open space built to be walk around!</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="media/Trail.jpg" alt="Trail" class="d-block" style="width:100%; Height:700px">
+          <div class="carousel-caption bg-black">
+            <h3>Out on the Trail</h3>
+            <p>All natural area with a man made path!</p>
+          </div>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+    </div>
+   
+</div>
+<div class="mt-5 p-4 bg-dark text-primary text-center">
+  <p>Call me at: 555-555-1515</p>
+  <br>
+  <p>Mail me at: 123 Guy St.</p>
+  <br>
+  <p>Or Email me at: WalkingWilliam@walking.com</p>
+</div>
+    </body>
+</html>
