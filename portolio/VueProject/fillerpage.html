@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <title>Filler</title>
+    <body>
+        <section class="container-fluid" id="app">
+
+            <div class="p-3 bg-dark text-success text-center">
+              <h1>Rox Images Site</h1>
+              <a href="index.html"><img src="img/NOWPNGMODEsmol.png" alt="Back to Subtract"></a>
+            </div>
+            
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="images.html">Images</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active text-success" href="fillerpage.html">Mystery</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="form.html">Form</a>
+                        </li>
+                        </ul>
+                </div>
+              </nav>
+
+              <div class="p-3">
+              <div class="container-fluid bg-secondary text-light" style="padding: 15px;">
+                <div class="container">
+
+                    <h4>Have you heard of the critically acclaimed MMORPG Final Fantasy xiv with award winning Expansion Heavensward? </h4>
+                
+                <div class="form-check">
+                    <input v-model="displayLabels" class="form-check-input" type="checkbox" id="showText">
+                    <label class="form-check-label" for="showText">
+                        <span class="badge bg-dark text-success" v-else>Don't care</span>
+                    </label>
+                  </div>
+                
+                  <div class="row">
+
+                  <div class="col-sm-6" style="padding-bottom: 15px;">
+                    <span v-if="displayLabels">
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi arcu neque, interdum iaculis pellentesque id, malesuada sit amet ipsum. Ut auctor magna non consequat posuere. Pellentesque sit amet mauris nec tellus bibendum condimentum. Etiam mauris risus, mollis elementum turpis quis, tristique mattis sapien. Nunc mattis massa ut tellus laoreet viverra. Vivamus mattis, mauris ac placerat varius, justo libero suscipit nibh, in vestibulum tellus dui eu purus. Donec imperdiet tortor efficitur justo cursus egestas. Donec eu malesuada sem. Phasellus elementum metus id nunc finibus dictum. Donec luctus posuere ante sit amet rutrum. Sed ut nisi diam. In nec enim elementum, malesuada eros et, tristique sem. Maecenas et ex sollicitudin, rutrum leo sed, consectetur nunc. Pellentesque malesuada sed arcu a scelerisque. Nulla justo justo, ornare nec porta sed, tincidunt ac dui.
+                        
+                        Vivamus sagittis nulla ac magna accumsan vestibulum. Nulla eget mollis orci, quis tempus lacus. Quisque id ultrices est. Vestibulum mauris odio, consequat pellentesque sapien quis, gravida dapibus nulla. Nullam non tellus tortor. Vestibulum lacus augue, facilisis et velit cursus, posuere porta leo. Integer ultrices hendrerit justo, vitae scelerisque risus egestas sit amet. Ut justo quam, consectetur vel pellentesque vel, finibus sodales felis. Morbi diam sapien, pharetra ut lorem et, semper vestibulum erat. Aliquam sit amet semper mi. Etiam vestibulum, est eu auctor efficitur, dolor nisi tempus velit, a gravida nunc orci in sem. Cras interdum porttitor nibh, vitae ullamcorper nibh ultricies sit amet. Mauris non cursus magna. Donec vehicula vestibulum magna vitae consectetur.
+                        
+                        Suspendisse nec iaculis magna. Pellentesque id mauris gravida, facilisis ex quis, hendrerit odio. Pellentesque ut arcu elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse pulvinar elementum mollis. Morbi malesuada imperdiet quam, sit amet sodales nulla suscipit a. Etiam convallis elit a leo dignissim, vel elementum risus tincidunt.
+                        
+                        Suspendisse velit turpis, interdum in arcu ac, commodo dictum nisi. Nullam tincidunt efficitur varius. Proin mi lorem, aliquet eget lobortis in, condimentum sed magna. Proin mattis pulvinar massa, non scelerisque justo venenatis eu. Sed non massa et erat aliquet ultrices vel eget magna. Aliquam facilisis ultrices accumsan. Aenean sed ligula sapien. Fusce scelerisque augue ac porta tincidunt. Quisque placerat convallis eros, sodales eleifend mi tristique eu. Praesent at elementum velit, et vehicula turpis. Sed ac ultricies ex, ac blandit dolor. Nunc pharetra lacus eu libero porta tempus. In quis posuere lorem, in mollis massa. Vivamus bibendum nec nunc eu posuere. Duis a ultricies mauris.
+                        
+                        Nunc eget lorem at dui sodales lacinia sit amet volutpat diam. Ut felis odio, egestas et placerat ac, efficitur at leo. Ut ultricies at enim sed aliquam. Suspendisse porta eros sit amet dui volutpat, nec feugiat tellus euismod. Maecenas arcu neque, rutrum scelerisque urna a, ultricies dignissim arcu. Nam bibendum felis nibh, vitae dictum nisl elementum eget. Nulla facilisi. Quisque consequat, lectus quis facilisis pellentesque, nunc neque iaculis ipsum, sit amet dignissim nisi felis non magna. Fusce in semper ligula. 
+                    </span>
+                  </div>
+
+                  <div class="col-sm-6">
+                    <img src="img/logo.png" alt="FFxiv" style="width: 145%; padding-bottom: 15px;">
+                  </div>
+
+                </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="mt-5 p-4 bg-dark text-success text-center">
+                <p>Call me at: 555-555-1515</p>
+                <br>
+                <p>Mail me at: 123 Guy St.</p>
+                <br>
+                <p>Or Email me at: Dudebro@anemail.com</p>
+            </div>
+            
+          </section>
+          <script src="js/vue.js"></script>
+    </body>
+</html>

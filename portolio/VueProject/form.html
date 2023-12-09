@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+ <html lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <title>Form</title>
+    <body>
+        <section class="container-fluid" id="app">
+
+            <div class="p-3 bg-dark text-success text-center">
+              <h1>Rox Images Site</h1>
+              <a href="index.html"><img src="img/NOWPNGMODEsmol.png" alt="Back to Subtract"></a>
+            </div>
+            
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="images.html">Images</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="fillerpage.html">Mystery</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active text-success" href="form.html">Form</a>
+                        </li>
+                        </ul>
+                </div>
+              </nav>
+              <div class="p-3">
+              <div class="container-fluid bg-secondary text-light" style="text-align: center; padding: 15px;">
+                <div class="container">
+                
+                <h3>A Form</h3>
+                <img src="img/Sleepy_Emote.png" alt="eepy" style="width: 20%">
+                <form>
+                    <p>First Name: <input type="text" required v-model="firstName"></p>
+                    <p>Last Name: <input type="text" required v-model="lastName"></p>
+                    <p>Email: <input type="email" required v-model="emailName"></p>
+                    <p>You are Okay with being emailed: <input type="checkbox" required v-model="allGood"></p>
+                    <button @click="clicked = !clicked" type="button" class="btn btn-outline-light">Submit</button>
+                </form>
+                <div v-if="allGood && clicked">
+                <p>{{firstName}} {{lastName}} at {{emailName}} has been recorded.</p>
+                </div>
+                </div>
+            </div>
+              </div>
+
+            <div class="mt-5 p-4 bg-dark text-success text-center">
+                <p>Call me at: 555-555-1515</p>
+                <br>
+                <p>Mail me at: 123 Guy St.</p>
+                <br>
+                <p>Or Email me at: Dudebro@anemail.com</p>
+            </div>
+            
+          </section>
+          <script src="js/vue.js"></script>
+    </body>
+</html>
