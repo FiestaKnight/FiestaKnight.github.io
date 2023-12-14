@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bees to meet you</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-sm bg-secondary sticky-top">
+  <div class="container-fluid">
+  <a href="index.html"><img src="img/Bee_icon.png" alt="Back to Start" style="width: 10%;"></a>
+  <br>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active bg-warning text-dark" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-warning" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-warning" href="#">Bio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-warning" href="#">Pics</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-warning" href="#">Newsletter</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+  <div class="p-3 bg-warning text-dark text-center">
+    <h1>Beth's Bees!</h1>
+    <p>Learn what all the buzz is about!</p> 
+  </div>
+  <div class="p-3 container-fluid bg-secondary">
+  <div class="d-flex justify-content-center">
+    <h1>Look at all these BEEautiful dudes!</h1>
+  </div>
+  <div class="container mt-5">
+
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="img/Bee1.jpg" alt="Bee1" class="d-block" style="width:100%; Height:700px">
+        <div class="carousel-caption bg-black">
+          <h3>Look at this guy</h3>
+          <p>So cool!</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/Bee2.jpg" alt="Bee2" class="d-block" style="width:100%; Height:700px">
+        <div class="carousel-caption bg-black">
+          <h3>This guy is pretty epic!</h3>
+          <p>Look at him!</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/Bee3.jpg" alt="Bee3" class="d-block" style="width:100%; Height:700px">
+        <div class="carousel-caption bg-black">
+          <h3>Wow what a guy</h3>
+          <p>so awesome!</p>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+  </div>
+
+  <div class="container mt-3">
+    <h3>Hear from the hive</h3>
+    <p>The buzz sent to your email!</p>
+      
+    <form action="valid.html" class="was-validated">
+      <div class="mb-3 mt-3">
+        <label for="fname" class="form-label">First Name:</label>
+        <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname" required>
+        <div class="valid-feedback">Valid</div>
+        <div class="invalid-feedback">Invalid</div>
+      </div>
+      <div class="mb-3">
+        <label for="lname" class="form-label">Last Name:</label>
+        <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname" required>
+        <div class="valid-feedback">Valid</div>
+        <div class="invalid-feedback">Invalid</div>
+      </div>
+      <div class="mb-3">
+        <label for="ema" class="form-label">Email:</label>
+        <input type="email" class="form-control" id="ema" placeholder="Enter Email" name="ema" required>
+        <div class="valid-feedback">Valid</div>
+        <div class="invalid-feedback">Invalid Format</div>
+      </div>
+      <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" id="myCheck"  name="remember" required>
+        <label class="form-check-label" for="myCheck">I agree to get updates from William.</label>
+        <div class="valid-feedback">Valid</div>
+        <div class="invalid-feedback">Invalid</div>
+      </div>
+    <button type="submit" class="btn btn-warning">Submit</button>
+    </form>
+  </div>
+  </body>
+</html>
